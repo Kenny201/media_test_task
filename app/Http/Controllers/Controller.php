@@ -3,7 +3,6 @@
 namespace App\Http\Controllers;
 
 use App\Models\Posts;
-use ErrorException;
 use Illuminate\Routing\Controller as BaseController;
 
 class Controller extends BaseController

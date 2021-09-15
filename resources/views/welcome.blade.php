@@ -24,15 +24,12 @@
                     <h5>Текст статьи</h5>
                     <p>{{$posts[0]['p_body']}}</p>
                     <h4 class="comment-title">Комментарии:</h4>
-
                         @foreach($posts as $post)
                             <div class="comment-item" >
                                 <p><b>Имя:</b> {{$post->c_name}}</p>
                                 <p><b>Email:</b> {{$post->c_email}}</p>
                                 <p><b>Текст комментария:</b> <br> {{$post->c_body}}</p>
                             </div>
-
-
                         @endforeach
 
                 @else
