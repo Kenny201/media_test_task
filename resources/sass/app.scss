@@ -1,0 +1,17 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+.title, .comment-title{
+  text-align: center;
+}
+.comment-item{
+  border: 1px solid #111;
+  margin: 0 0 20px 0;
+  padding: 10px;
+}
